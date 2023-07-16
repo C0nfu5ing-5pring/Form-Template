@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.gradient-background {
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+  background-size: 180% 180%;
+  animation: gradient-animation 4s ease infinite;
+}
+
+.gradient-text-h1 {
+  background: linear-gradient(90deg, #007381, #225D6F, #2F4858);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-animation 1s ease-in-out infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#title {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  color: black;
+  font-weight: bolder;
+}
+
+#description {
+  text-align: center;
+  font-size: 20px;
+  color: #00003485;
+  font-weight: bolder;
+}
+
+.form-bg {
+  height: auto;
+  width: auto;
+  background-color: #1b1b3295;
+  ;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-top: 60px;
+  padding: 40px;
+  color: white;
+  border-radius: 20px;
+}
+
+input[type=text], select, input[type=email], button[type=submit], input[type=number] {
+  display: block;
+  height: 38px;
+  width: 50%;
+  margin: 15px 0px 15px 0px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+input[type=radio] {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+label {
+  font-size: larger;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+textarea {
+  font-family: 'Poppins', sans-serif;
+  width: 50%;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+button[type=submit] {
+  width: 100%;
+}
+
+button[type=submit]:hover {
+  background-color: #37af65;
+  border: 1px solid #37af65;
+  color: whitesmoke;
+}
+
+span.brackets {
+  font-size: 10px;
+}
