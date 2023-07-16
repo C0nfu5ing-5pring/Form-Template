@@ -37,4 +37,4 @@ This project is licensed under the MIT License - feel free to use, modify, and d
 
 If you have any questions, suggestions, or need assistance with using the form in your project, please don't hesitate to open an issue or reach out to me through my GitHub profile.
 
-Thank you for visiting the "HTML-CSS-Form-Design" repository. I hope you find this form design helpful in enhancing your web projects! Happy coding!
+Thank you for visiting the "Form-Template" repository. I hope you find this form design helpful in enhancing your web projects! Happy coding!
