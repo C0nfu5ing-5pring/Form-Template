@@ -106,3 +106,8 @@ button[type=submit]:hover {
 span.brackets {
   font-size: 10px;
 }
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
